@@ -2,14 +2,14 @@ const mysql = require('mysql');
 
 class Database {
     constructor() {
-        this.host = 'localhost';
-        this.username = 'root';
-        this.password = '';
-        this.database = 'deltaview_lms';
-        // this.host = 'deltawebservice.com';
-        // this.username = 'dwebserv_dwlms';
-        // this.password = 'Rahul@7982';
-        // this.database = 'dwebserv_deltalms';
+        // this.host = 'localhost';
+        // this.username = 'root';
+        // this.password = '';
+        // this.database = 'deltaview_lms';
+        this.host = 'deltawebservice.com';
+        this.username = 'dwebserv_dwlms';
+        this.password = 'Rahul@7982';
+        this.database = 'dwebserv_deltalms';
 
         this.conn = mysql.createConnection({
             host: this.host,
