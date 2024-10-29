@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { toast } from "sonner";
 
-const API_URL = "http://localhost:5000/api/v1";
+const API_URL = "http://145.223.19.22:5000/api/v1";
 
 
 const getAuthHeader = () => {
